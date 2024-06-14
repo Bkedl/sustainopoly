@@ -246,7 +246,7 @@ public class GameManager {
 		// dear god this needs abstracted into a function before i lose my mind!
 
 //		Player tarPlayer = gameManager.getPlayerList().get(0);
-//		// this toString() 
+//		// this toString() REEEEEEEE
 ////		System.out.println(tarPlayer.toString());
 //
 //		gameManager.getGameBoard().getRegionList().get(0).setOwner(tarPlayer);
@@ -1640,7 +1640,7 @@ public class GameManager {
 				+ (currentDevelopmentLevel + 1));
 		System.out.println();
 
-		
+		// this should be encapsulated but i am at the end of my tether friends
 
 		System.out.println("New Area details following development :");
 		Area a = (Area) areaToDevelop;
